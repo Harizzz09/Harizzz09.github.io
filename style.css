@@ -367,3 +367,66 @@ h1{
     
 }
 
+/*-------------------------------------------------------------------------*/
+
+@media (max-width: 768px) {
+    
+    .text h1 {
+        font-size: 5rem;
+    }
+    .text p {
+        font-size: 1.5rem;
+    }
+    .text span {
+        margin-left: 0; 
+        display: block; 
+        margin-top: 10px;
+    }
+
+
+    .about-me > p, .hobby > p {
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 20px;
+    }
+    .about-me > h1, .hobby > h1, .Social-links > h1 {
+        font-size: 4rem;
+        margin-left: 20px;
+        margin-right: 20px;
+        text-align: left; 
+    }
+    .about-me > hr, .hobby hr, .Social-links > hr {
+        margin-left: 20px;
+        width: 80%; 
+    }
+
+    
+    .profile-pic {
+        float: none; 
+        display: block;
+        margin: 0 auto 30px auto; 
+        width: 80%;
+    }
+
+    
+    .photo-section-1, .photo-section-2 {
+        margin-left: 20px;
+        margin-right: 20px;
+        flex-direction: column; 
+        align-items: center;
+    }
+    .photo-section-1 img, .photo-section-2 img {
+        width: 100%; 
+        margin-bottom: 20px !important; 
+    }
+
+    
+    .instagram, .linkedin, .Github {
+        font-size: 40px; 
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px 20px;
+        display: block; 
+        width: 80%; 
+    }
+}
