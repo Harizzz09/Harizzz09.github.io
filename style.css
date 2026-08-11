@@ -372,10 +372,10 @@ h1{
 @media (max-width: 768px) {
     
     .text h1 {
-        font-size: 5rem;
+        font-size: 4rem;
     }
     .text p {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
     .text span {
         margin-left: 0; 
