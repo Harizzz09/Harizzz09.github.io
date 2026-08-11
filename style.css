@@ -1,0 +1,369 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+    
+}
+
+
+.background-drop {
+    width: 100vw;
+    height: 100vh;
+    position: relative; 
+    
+
+    background-image: url("back-drop.png");
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: cover;
+}
+
+.text {
+    position: sticky; 
+    top: 15%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    z-index: 2; 
+    
+    text-align: left;
+    width: max-content;
+}
+
+span{
+    margin-left: 450px;
+}
+
+
+.front-drop {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    
+    z-index: 3; 
+}
+
+
+.text h1 {
+    font-size: 12rem; 
+    font-family: serif; 
+    color: #ffe666; 
+    text-shadow: 12px 16px #1f1f1f;
+    margin-bottom: 0px; 
+}
+
+.text p {
+    font-size: 2rem;
+    font-family: serif;
+    color: #ffe666;
+    text-shadow: 4px 3px #1f1f1f;
+    margin-top: -10px; 
+}
+
+h1{
+    text-align: center;
+    font-size:4rem
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+    
+}
+
+
+.background-drop {
+    width: 100%;
+    height: 100%;
+    position: relative; 
+    
+   
+    background-image: url("back-drop.png");
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: cover;
+}
+
+.text {
+    position: sticky; 
+    top: 15%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    z-index: 2; 
+    
+    text-align: left;
+    width: max-content;
+}
+
+span{
+    margin-left: 450px;
+}
+
+
+.front-drop {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    
+    z-index: 3; 
+}
+
+
+.text h1 {
+    font-size: 12rem; 
+    font-family: serif; 
+    color: #ffe666; 
+    text-shadow: 12px 16px #BC4F4F;
+    margin-bottom: 0px; 
+}
+
+.text p {
+    font-size: 2rem;
+    font-family: serif;
+    color: #ffe666;
+    text-shadow: 4px 3px #BC4F4F;
+    margin-top: -10px; 
+}
+
+h1{
+    text-align: center;
+    font-size:4rem
+}
+/* About me section ----------------------------------------------------------------------- */
+.about-me{
+    background-color: #EDE8D0;
+}
+
+.Face{
+    float:right;
+    width: 300px;
+    margin-right: 150px;
+    margin-left: 40px; 
+    margin-bottom: 20px;
+
+    border-radius: 8px;
+    box-shadow: 10px 10px 10px #BC4F4F;
+}
+
+.about-me hr {
+    width: 300px;
+    margin-top: -20px;      
+    margin-left: 0;
+    margin-bottom: 50px;
+    border: 1px solid
+}
+
+.about-me > p{
+    margin-left:150px;
+    margin-right:150px;
+
+    font-size: 25px;
+    
+}
+
+
+.about-me > h1{
+    font-family: "Mrs Saint Delafield", cursive;
+    color:#ffe666; 
+    text-shadow: 4px 3px #BC4F4F;
+
+    text-align: left; 
+    font-size:6rem;
+    margin-left: 160px;
+}
+
+
+.about-me> hr {
+    width: 300px;     
+    margin-top: -20px;
+    margin-left:-15px;
+    margin-bottom: 30px;
+    border: 1px solid;
+}
+
+.about-me > p{
+    margin-left:150px;
+    margin-right:150px;
+
+    font-size: 25px;
+    text-align: left;
+    
+}
+/* Albulm 1 section ----------------------------------------------------------------------- */ 
+
+.photo-section-1{
+    display: flex;
+    flex-direction: row;
+
+    margin-left: 150px;
+    margin-right: 150px;
+    
+    gap: 30px;
+
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.photo-section-1 img:nth-child(3), 
+.photo-section-1 img:nth-child(4) {
+
+    margin-bottom: 30px; 
+    
+}
+
+
+.photo-section-1 img{
+    width: 33.33%;
+    height: auto; 
+    object-fit: cover;
+    border-radius: 8px;
+
+    box-shadow: 10px 10px 10px #BC4F4F;
+}
+
+/* Hobby section ----------------------------------------------------------------------- */ 
+.hobby{
+    background-color: #DFD7AC;
+}
+
+.hobby > h1{
+    font-family: "Mrs Saint Delafield", cursive;
+    color:#ffe666; 
+    text-shadow: 4px 3px #BC4F4F;
+
+    text-align: right; 
+    font-size:6rem;
+    margin-right: 160px;
+}
+
+.hobby hr {
+    width: 300px;     
+    margin-top: -20px;
+    margin-left: auto;
+    margin-right: 0.5px;
+    margin-bottom: 30px;
+    border: 1px solid;
+}
+
+.hobby > p{
+    margin-left:150px;
+    margin-right:150px;
+
+    font-size: 25px;
+    text-align: right;
+    
+}
+
+.photo-section-2{
+    display: flex;
+    flex-direction: row;
+
+    margin-left: 150px;
+    margin-right: 150px;
+    
+    gap: 30px;
+
+    flex-wrap: wrap;
+    justify-content: center;
+
+    
+}
+
+.photo-section-2 img{
+    width: 33.33%;
+    height: auto; 
+    object-fit: cover;
+    border-radius: 8px;
+
+
+    box-shadow: 10px 10px 10px #BC4F4F;
+}
+
+.photo-section-2 img:nth-child(5), 
+.photo-section-2 img:nth-child(6) {
+
+    margin-bottom: 30px; 
+    
+}
+
+.about-me span{
+    font-family:"serif";
+    font-size: 60px;
+    color:#ffe666; 
+    text-shadow: 4px 3px #BC4F4F;
+}
+
+.hobby span{
+    font-family:"serif";
+    font-size: 60px;
+    color:#ffe666; 
+    text-shadow: 4px 3px #BC4F4F;
+}
+
+
+/* social links ----------------------------------------------------------------------- */
+.Social-links{
+    background-color: #E98B50;
+    text-align: center;
+}
+
+.Social-links > h1{
+    font-family: "Mrs Saint Delafield", cursive;
+    color:#ffe666; 
+    text-shadow: 4px 3px #BC4F4F;
+
+    text-align: left; 
+    font-size:6rem;
+    margin-left: 160px;
+}
+
+.Social-links > hr {
+    width:550px;     
+    margin-top: -20px;
+    margin-right: auto;
+    margin-left: 150px;
+    margin-bottom: 30px;
+    border: 1px solid;
+}
+
+
+.instagram, .linkedin, .Github {
+    display: inline-block;
+
+    border: 10px solid white ;
+    background-color: white;
+    border-radius: 10px;
+    width: max-content;
+
+    margin-left:150px;
+    margin-right:150px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+    font-size: 100px;
+
+    font-family: "Mrs Saint Delafield", cursive;
+    color:#ffe666; 
+    text-shadow: 4px 3px #BC4F4F;
+
+    
+}
+
